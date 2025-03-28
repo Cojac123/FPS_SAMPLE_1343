@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1700,6 +1700,7 @@ GameObject:
   - component: {fileID: 529948331}
   - component: {fileID: 529948330}
   - component: {fileID: 529948329}
+  - component: {fileID: 529948333}
   m_Layer: 11
   m_Name: Ammo Refill Station
   m_TagString: Untagged
@@ -1787,6 +1788,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &529948333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529948328}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a01357ff4cb34d43930ac5de39c2063, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &578820793
 GameObject:
   m_ObjectHideFlags: 0
@@ -3442,7 +3455,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh24344
+  m_Name: pb_Mesh37302
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5337,6 +5350,8 @@ GameObject:
   - component: {fileID: 2071811431}
   - component: {fileID: 2071811436}
   - component: {fileID: 2071811437}
+  - component: {fileID: 2071811438}
+  - component: {fileID: 2071811439}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -5483,3 +5498,27 @@ MonoBehaviour:
   barrelEnd: {fileID: 11768569}
   colorValidTarget: {r: 0.8980393, g: 0.20000002, b: 0.20000002, a: 1}
   colorNoValidTarget: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
+--- !u!114 &2071811438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071811430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac09512d820d9ec44a305712cd04d4be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2071811439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071811430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24c308c6c4cb4ea4c944a11aa87da0b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
