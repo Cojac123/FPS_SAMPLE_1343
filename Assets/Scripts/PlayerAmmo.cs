@@ -9,6 +9,7 @@ public class PlayerAmmo : MonoBehaviour
     public void ChangeAmmo(int amount)
     {
         ammo += amount;
+        Debug.Log("Ammo added! Current ammo: " + ammo);
         OnAmmoChanged.Invoke(ammo);
     }
     public void AddAmmo(int amount)
